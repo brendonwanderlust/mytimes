@@ -11,7 +11,6 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   padding-left: 30px;
   color: MediumAquamarine;
 }
@@ -23,14 +22,16 @@ header {
 }
 
 
-nav {
+.navigation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-right: 40px;
 }
 
-nav span {
-  padding: 5px 5px;
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
